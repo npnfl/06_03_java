@@ -11,8 +11,8 @@ jobs:
     runs-on: ubuntu-latest
     # TODO: укажите нужные permissions для GITHUB_TOKEN
     permissions:
-      укажите_название: read
-      укажите_название: write
+      contents:  read
+      packages: write
     steps:
       - name: Checkout Code
         uses: actions/checkout@v3
